@@ -1,0 +1,17 @@
+h1 {
+    font-family: sans-serif;
+    font-style: initial;
+    line-height: 30%;
+    text-align: center;
+    text-decoration: wavy;
+}
+p {
+    font-weight: 600;
+    font-size: 3em;
+}
+body {
+    font-size: 16px;
+}
+ul {
+    background-color: red;
+}
