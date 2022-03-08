@@ -45,3 +45,13 @@ for(let i = 0; i < numbers.length; i++){
     }
 }
 console.log(maior);
+
+// Exercício 6
+
+impar = 0;
+for(let i = 0; i < numbers.length; i++){
+    if(numbers[i] % 2 != 0){
+        impar = impar + 1;
+    }
+}
+console.log(impar);
