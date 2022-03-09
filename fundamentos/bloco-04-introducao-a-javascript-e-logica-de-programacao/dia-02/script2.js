@@ -34,7 +34,7 @@ else{
 
 // Exercício 5
 
-maior = 0;
+maior = numbers[0];
 
 for(let i = 0; i < numbers.length; i++){
     if(maior<numbers[i]){
@@ -55,5 +55,36 @@ for(let i = 0; i < numbers.length; i++){
     }
 }
 console.log(impar);
+if(impar == 0){
+    console.log("nenhum valor ímpar encontrado");
+}
 
-paro = 0;
+// Exercício 7
+
+menor = numbers[0];
+
+for(let i = 0; i < numbers.length; i++){
+    if(menor > numbers[i]){
+        menor = numbers[i];
+    }
+    else{
+
+    }
+}
+console.log(menor);
+
+// Exercício 8
+
+array = [];
+for(let i = 1; i <= 25; i++){
+    array[i-1] = i;
+}
+console.log(array);
+
+// Exercício 9
+
+divisao = [];
+for(let i = 1; i <= 25; i++){
+    divisao[i-1] = array[i-1]/2;
+}
+console.log(divisao);
