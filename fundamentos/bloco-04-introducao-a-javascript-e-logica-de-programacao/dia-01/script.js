@@ -209,16 +209,16 @@ if(s1<=1903.98){
     sl = s1;
 }
 else if((s1>=1903.99)&&(s1<=2826.65)){
-    sl = s1 - in1*s1 + de1;
+    sl = s1 - ir1*s1 + de1;
 }
 else if((s1>=2826.66)&&(s1<=3751.05)){
-    sl = s1 - in2*s1 + de2;
+    sl = s1 - ir2*s1 + de2;
 }
 else if((s1>=3751.06)&&(s1<=4664.68)){
-    sl = s1 - in3*s1 + de3;
+    sl = s1 - ir3*s1 + de3;
 }
 else{
-    sl = s1 - in4*s1 + de4;
+    sl = s1 - ir4*s1 + de4;
 }
 
 console.log(sl);
