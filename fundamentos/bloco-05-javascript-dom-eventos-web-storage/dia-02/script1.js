@@ -17,4 +17,16 @@ document.getElementById("elementoOndeVoceEsta").parentNode.style.color = "green"
 
 document.getElementById("primeiroFilhoDoFilho").innerText = "Seja amigo de pessoas que queiram o melhor para você.";
 
+//4)
+
+console.log(document.getElementById("pai").children[0]);
+
+//5)
+
+console.log(document.getElementById("elementoOndeVoceEsta").previousElementSibling);
+
+//6)
+
+console.log(document.getElementById("elementoOndeVoceEsta").nextSibling);
+
 
