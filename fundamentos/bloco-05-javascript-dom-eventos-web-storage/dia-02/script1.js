@@ -29,4 +29,12 @@ console.log(document.getElementById("elementoOndeVoceEsta").previousElementSibli
 
 console.log(document.getElementById("elementoOndeVoceEsta").nextSibling);
 
+//7)
+
+console.log(document.getElementById("elementoOndeVoceEsta").nextElementSibling);
+
+//8)
+
+console.log(document.getElementById("pai").children[2]);
+
 
