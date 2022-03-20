@@ -4,6 +4,8 @@
 //https:www.w3schools.com/jsref/met_node_removechild.asp
 //https://app.betrybe.com/course/fundamentals/javascript-dom-eventos-e-web-storage/javascript-trabalhando-com-elementos/03408eeb-c9de-4dd6-b383-8b6b40014245/conteudos/b1c37194-f7ad-447d-8112-1d384e527c2f/parte-i-buscando-elementos/e39f3e34-8c6c-4027-bb11-38d052247aff?use_case=side_bar
 
+//Parte 1
+
 //1)
 
 console.log(document.getElementById("elementoOndeVoceEsta"));
@@ -37,4 +39,19 @@ console.log(document.getElementById("elementoOndeVoceEsta").nextElementSibling);
 
 console.log(document.getElementById("pai").children[2]);
 
+//Parte 2
+
+//1)
+
+let irmao1 = document.createElement('section');
+document.getElementById("pai").appendChild(irmao1);
+irmao1.innerText = "Estou aqui!";
+
+//2
+
+let filho1 = document.createElement('section');
+document.getElementById("elementoOndeVoceEsta").appendChild(filho1);
+filho1.innerText = "Também estou aqui!";
+
+//3
 
