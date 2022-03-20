@@ -1,28 +1,20 @@
-// arquivo script1.js
+//arquivo script1.js
 
+//Fontes:
+//https:www.w3schools.com/jsref/met_node_removechild.asp
+//https://app.betrybe.com/course/fundamentals/javascript-dom-eventos-e-web-storage/javascript-trabalhando-com-elementos/03408eeb-c9de-4dd6-b383-8b6b40014245/conteudos/b1c37194-f7ad-447d-8112-1d384e527c2f/parte-i-buscando-elementos/e39f3e34-8c6c-4027-bb11-38d052247aff?use_case=side_bar
 
-// https:www.w3schools.com/jsref/met_node_removechild.asp
+//1)
 
-// let test = document.createElement('section');
-// let test2 = document.createElement('section');
-// let test3 = document.createElement('section');
-// test.innerText = "Amigo estou aqui";
-// test2.innerText = "Se a fase é ruim";
-// test3.innerText = "E são tantos problemas que não tem fim";
-// document.getElementById('pai').appendChild(test);
-// document.getElementById('elementoOndeVoceEsta').appendChild(test2);
-// document.getElementById('primeiroFilhoDoFilho').appendChild(test3);
-console.log(document.getElementById('elementoOndeVoceEsta'));
-document.getElementById('elementoOndeVoceEsta').parentNode.style.backgroundColor = "green";
-// document.getElementById('primeiroFilhoDoFilho').innerText = "É importante estudar todos os dias e fazer exercícios físicos."
-console.log(document.getElementById('pai').firstElementChild);
-console.log(document.getElementById('elementoOndeVoceEsta').previousElementSibling);
-console.log(document.getElementById('elementoOndeVoceEsta').nextSibling.data);
-console.log(document.getElementById('elementoOndeVoceEsta').nextSibling.nextSibling);
-console.log(document.getElementById('pai').lastElementChild.previousElementSibling);
-console.log(document.getElementById('primeiroFilhoDoFilho').children[0].parentElement.parentElement.nextElementSibling);
-segundoFdeF = document.getElementById('elementoOndeVoceEsta').children[1];
+console.log(document.getElementById("elementoOndeVoceEsta"));
 
-document.getElementById('elementoOndeVoceEsta').removeChild(segundoFdeF);
+//2)
+
+console.log(document.getElementById("elementoOndeVoceEsta").parentNode);
+document.getElementById("elementoOndeVoceEsta").parentNode.style.color = "green";
+
+//3)
+
+document.getElementById("primeiroFilhoDoFilho").innerText = "Seja amigo de pessoas que queiram o melhor para você.";
 
 
