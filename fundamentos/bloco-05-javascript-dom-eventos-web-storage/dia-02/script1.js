@@ -47,11 +47,35 @@ let irmao1 = document.createElement('section');
 document.getElementById("pai").appendChild(irmao1);
 irmao1.innerText = "Estou aqui!";
 
-//2
+//2)
 
 let filho1 = document.createElement('section');
 document.getElementById("elementoOndeVoceEsta").appendChild(filho1);
 filho1.innerText = "Também estou aqui!";
 
-//3
+//3)
 
+let filho2 = document.createElement('section');
+document.getElementById("primeiroFilhoDoFilho").appendChild(filho2);
+filho2.innerText = "Não esqueçam de mim!";
+
+//4)
+
+console.log(filho2.parentElement.parentElement.nextElementSibling);
+
+//Parte 3
+
+//1)
+
+//https://www.w3schools.com/jsref/met_node_removechild.asp
+
+let pai = document.getElementById("pai");
+pai.removeChild(pai.children[0]);
+pai.removeChild(pai.lastChild);
+pai.removeChild(pai.lastChild.previousElementSibling);
+pai.removeChild(pai.children[1]);
+let filhofilho = document.getElementById("primeiroFilhoDoFilho");
+filhofilho.removeChild(filhofilho.lastElementChild);
+let elemento = document.getElementById("elementoOndeVoceEsta");
+elemento.removeChild(elemento.children[1]);
+elemento.removeChild(elemento.lastChild);
