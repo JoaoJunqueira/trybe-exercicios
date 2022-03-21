@@ -42,9 +42,31 @@ document.getElementsByTagName('main')[0].appendChild(tagsection3).classList.add(
 //       https://www.w3schools.com/jsref/met_element_setattribute.asp
 
 let  imagem = document.createElement('img');
-document.getElementsByClassName("left-content")[0].appendChild(imagem);
-imagem.id = "minha-imagem";
-document.getElementById("minha-imagem").setAttribute("class","small-image");
-document.getElementById("minha-imagem").src = "https://picsum.photos/200";
+document.getElementsByClassName("left-content")[0].appendChild(imagem); // Coloca a tag imagem como filha do item de classe left-content
+imagem.id = "minha-imagem"; // Encontrei na pesquisa o método para inserir a imagem, mas ele precisava de um id. Tentei fazer só por classe
+                            // e não funcionou. Então adicionei uma id a imagem.
+document.getElementById("minha-imagem").setAttribute("class","small-image"); // Coloquei a classe pedida
+document.getElementById("minha-imagem").src = "https://picsum.photos/200"; // E adicionei a src
 
-// 8)
+// 8) Adicione uma lista não ordenada com os valores de 1 a 10 por extenso, ou seja, um , dois , três , ... como valores da lista. Essa lista deve ser filha do section criado no passo 6
+
+let lista = document.createElement("ul");
+document.getElementsByClassName("right-content")[0].appendChild(lista);
+let um = document.createElement("li");
+lista.appendChild(um).innerText = "um";
+let dois = document.createElement("li");
+lista.appendChild(dois).innerText = "dois";
+let três = document.createElement("li");
+lista.appendChild(três).innerText = "três";
+let quatro = document.createElement("li");
+lista.appendChild(quatro).innerText = "quatro";
+let cinco = document.createElement("li");
+lista.appendChild(cinco).innerText = "cinco";
+let seis = document.createElement("li");
+lista.appendChild(seis).innerText = "seis";
+let sete = document.createElement("li");
+lista.appendChild(sete).innerText = "sete";
+let oito = document.createElement("li");
+lista.appendChild(oito).innerText = "oito";
+let nove = document.createElement("li");
+lista.appendChild(nove).innerText = "nove";
