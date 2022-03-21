@@ -93,3 +93,8 @@ document.getElementsByTagName("h1")[0].setAttribute("class","title");
 document.getElementsByTagName("h3")[0].setAttribute("class","description");
 document.getElementsByTagName("h3")[1].setAttribute("class","description");
 document.getElementsByTagName("h3")[2].setAttribute("class","description");
+
+// 3) Remova a section criado no passo 5 (aquele que possui a classe left-content ). Utilize a função .removeChild()
+
+let principal = document.getElementsByTagName("main")[0];
+principal.removeChild(principal.getElementsByClassName("left-content")[0]);
