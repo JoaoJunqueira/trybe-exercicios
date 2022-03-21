@@ -70,6 +70,8 @@ let oito = document.createElement("li");
 lista.appendChild(oito).innerText = "oito";
 let nove = document.createElement("li");
 lista.appendChild(nove).innerText = "nove";
+let dez = document.createElement("li");
+lista.appendChild(dez).innerText = "dez";
 
 // 9) Adicione 3 tags h3 , todas sendo filhas do main criado no passo 2.
 
@@ -82,4 +84,6 @@ document.getElementsByClassName("main-content")[0].appendChild(titulo3);
 
 // Parte 2
 
-// 1) 
+// 1) Adicione a classe title na tag h1 criada
+
+document.getElementsByTagName("h1")[0].setAttribute("class","title");
