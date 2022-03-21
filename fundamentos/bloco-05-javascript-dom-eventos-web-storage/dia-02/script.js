@@ -103,3 +103,7 @@ principal.removeChild(principal.getElementsByClassName("left-content")[0]);
 // Fonte: https://www.w3schools.com/jsref/prop_style_marginright.asp
 
 document.getElementsByClassName("right-content")[0].style.marginRight = "auto";
+
+// 5) Troque a cor de fundo do elemento pai da section criada no passo 3 (aquela que possui a classe center-content ) para a cor verde
+
+document.getElementsByClassName("center-content")[0].parentElement.style.color = "green";
