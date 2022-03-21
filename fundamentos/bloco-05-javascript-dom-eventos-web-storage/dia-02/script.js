@@ -37,6 +37,14 @@ document.getElementsByTagName('main')[0].appendChild(tagsection3).classList.add(
 
 // 7) Adicione uma imagem com src configurado para o valor https://picsum.photos/200 e classe small-image . Esse elemento deve ser filho do section criado no passo 5
 
+//Fonte: https://satellasoft.com/artigo/javascript/alterar-imagem-em-tempo-real-com-javascript
+//       https://pt.stackoverflow.com/questions/56766/adicionar-atributo-a-um-elemento
+//       https://www.w3schools.com/jsref/met_element_setattribute.asp
+
 let  imagem = document.createElement('img');
 document.getElementsByClassName("left-content")[0].appendChild(imagem);
+imagem.id = "minha-imagem";
+document.getElementById("minha-imagem").setAttribute("class","small-image");
+document.getElementById("minha-imagem").src = "https://picsum.photos/200";
 
+// 8)
