@@ -98,3 +98,8 @@ document.getElementsByTagName("h3")[2].setAttribute("class","description");
 
 let principal = document.getElementsByTagName("main")[0];
 principal.removeChild(principal.getElementsByClassName("left-content")[0]);
+
+// 4) Centralize a section criado no passo 6 (aquele que possui a classe right-content ). Dica: para centralizar, basta configurar o margin-right: auto da section
+// Fonte: https://www.w3schools.com/jsref/prop_style_marginright.asp
+
+document.getElementsByClassName("right-content")[0].style.marginRight = "auto";
