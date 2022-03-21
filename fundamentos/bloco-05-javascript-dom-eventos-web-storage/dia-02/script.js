@@ -87,3 +87,9 @@ document.getElementsByClassName("main-content")[0].appendChild(titulo3);
 // 1) Adicione a classe title na tag h1 criada
 
 document.getElementsByTagName("h1")[0].setAttribute("class","title");
+
+// 2) Adicione a classe description nas 3 tags h3 criadas
+
+document.getElementsByTagName("h3")[0].setAttribute("class","description");
+document.getElementsByTagName("h3")[1].setAttribute("class","description");
+document.getElementsByTagName("h3")[2].setAttribute("class","description");
