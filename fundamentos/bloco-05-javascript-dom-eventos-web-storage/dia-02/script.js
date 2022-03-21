@@ -70,3 +70,16 @@ let oito = document.createElement("li");
 lista.appendChild(oito).innerText = "oito";
 let nove = document.createElement("li");
 lista.appendChild(nove).innerText = "nove";
+
+// 9) Adicione 3 tags h3 , todas sendo filhas do main criado no passo 2.
+
+let titulo1 = document.createElement("h3");
+document.getElementsByClassName("main-content")[0].appendChild(titulo1);
+let titulo2 = document.createElement("h3");
+document.getElementsByClassName("main-content")[0].appendChild(titulo2);
+let titulo3 = document.createElement("h3");
+document.getElementsByClassName("main-content")[0].appendChild(titulo3);
+
+// Parte 2
+
+// 1) 
