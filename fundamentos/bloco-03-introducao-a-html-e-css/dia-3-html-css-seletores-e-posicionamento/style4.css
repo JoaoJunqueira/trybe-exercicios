@@ -1,0 +1,47 @@
+div:hover {
+    border: 5px solid brown;
+}
+
+div:nth-of-type(1) {
+    background-color: blueviolet;
+}
+
+div:nth-of-type(2) {
+    background-color: darkcyan;
+}
+
+div:nth-of-type(3) {
+    background-color: violet;
+    height: 50px;
+}
+
+div:nth-of-type(4) {
+    background-color: darkblue;
+}
+
+div:nth-of-type(5) {
+    background-color: aquamarine;
+}
+
+div:nth-of-type(1) h3 {
+    color: aquamarine;
+}
+
+div:nth-of-type(2) h3 {
+    font-weight: bold;
+}
+
+div:nth-of-type(3) h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+    text-align: center;
+}
+
+div:nth-of-type(4) h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+div:nth-of-type(5) h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: brown;
+}
