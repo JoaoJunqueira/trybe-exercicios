@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang='pt-BR'>
+<head>
+  <meta charset='UTF-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <title>Calculadora</title>
+</head>
+<body>
+  <p>Informe dois números para realizar a soma:</p>
+  <label for='value1'>Valor 1:</label>
+  <input type='text' id='value1'>
+  <label for='value2'>Valor 2:</label>
+  <input type='text' id='value2'>
+  <button id='button'>Somar</button>
+  <p id='result'></p>
+  <script>
+    // https://app.betrybe.com/course/fundamentals/introducao-a-javascript-es6-e-testes-unitarios/javascript-es6-fluxo-de-excecao-e-objetos/d9bffb5f-e6b0-4807-9b64-30741a3d3d70/conteudos/aaffdb78-a36f-48ae-bbc9-e86ab248ae5e/throw-e-trycatch/807348f8-6baa-44a1-b9ee-d56f372aa871?use_case=side_bar
+
+    const verifySpace = (value1, value2) => {
+      if (value1 === '' || value2 === '') {
+        document.getElementById('result').style.color = 'red';
+        throw new Error('Os dois espaços devem ser preenchidos!!');
+    }
+    };
+
+    const verifyIsNumber = (value1, value2) => {
+      if (isNaN(value1) || isNaN(value2)) {
+        document.getElementById('result').style.color = 'red';  
+        throw new Error('Ambos os valores devem ser numéricos!!');      
+      }
+    }
+
+    const sum = (value1,value2) => {
+      try {
+        const value1 = document.getElementById('value1').value;
+        const value2 = document.getElementById('value2').value;
+        verifySpace(value1, value2);
+        verifyIsNumber(value1, value2);
+        const result = parseInt(value1) + parseInt(value2);
+        console.log(result);
+        document.getElementById('result').style.color = 'black';
+        document.getElementById('result').innerHTML = `Resultado: ${result}`;
+      }
+      catch(error) {
+        document.getElementById('result').innerHTML = `${error.message}`;
+        document.getElementById('value1').value = '';
+        document.getElementById('value2').value = '';
+      }
+      finally {
+        document.getElementById('value1').value = '';
+        document.getElementById('value2').value = '';
+      }
+      }
+  
+    window.onload = () => {
+      const button = document.getElementById('button');
+      button.addEventListener('click', sum);
+    }
+  </script>
+</body>
+</html>
