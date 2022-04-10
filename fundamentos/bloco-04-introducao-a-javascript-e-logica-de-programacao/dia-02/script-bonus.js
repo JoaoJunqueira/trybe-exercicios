@@ -3,4 +3,46 @@
 
 // Exercício Bônus
 
+// Ordenar o array de forma crescente
+
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+
+for(let i = 1; i < numbers.length; i += 1) {
+    for(let j = 0; j < i; j += 1) {
+        if(numbers[i] < numbers[j]){
+            aux = numbers[i];
+            numbers[i] = numbers[j];
+            numbers[j] = aux;
+        }
+    }
+}
+
+console.log(numbers);
+
+// Ordenar o array de forma decrescente
+
+for(let i = 1; i < numbers.length; i += 1) {
+    for(let j = 0; j < i; j += 1) {
+        if(numbers[j] < numbers[i]){
+            aux = numbers[i];
+            numbers[i] = numbers[j];
+            numbers[j] = aux;
+        }
+    }
+}
+
+console.log(numbers);
+
+let array = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27]; // Array original (apenas mudando o nome)
+let arrayNovo = [];
+
+for(let i = 0; i < array.length; i += 1){
+    if(i != (array.length - 1)){
+        arrayNovo.push(array[i]*array[i + 1]);
+    }
+    else{
+        arrayNovo.push(array[i]*2);
+    }
+}
+
+console.log(arrayNovo);
