@@ -43,3 +43,20 @@ console.log(aux2);
 
 // Exercício 4
 
+// Números primos de 0 a 50
+
+array = [];
+
+for(let i = 2; i <= 50; i += 1){
+    let cont = 0;
+    for(let j = 1; j <= i; j += 1){
+        if(i % j === 0){
+            cont += 1;
+        } 
+    }
+    if(cont === 2){
+        array.push(i);
+    }
+}
+
+console.log(array);
