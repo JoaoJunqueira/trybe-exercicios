@@ -1,3 +1,5 @@
+//1) Retornar o nome do primeiro autor que 
+
 const books = [
     {
       id: 1,
@@ -61,7 +63,24 @@ const books = [
     },
   ];
   
+  // Adicione o código do exercício aqui:
 
-  function nameAndAge() {
-    // escreva seu código aqui
+  function authorBornIn1947(books) {
+    // escreva aqui o seu código
+    const autor = books.find(book => book.author.birthYear === 1947);
+    return autor.author.name;
   }
+
+  console.log(authorBornIn1947(books));
+
+// 2) Retorne o nome do livro de menor nome.
+
+function smallerName() {
+  let nameBook;
+  // escreva aqui o seu código
+  
+  // namebook = books.forEach(()) // Dica: Aula do dia do Atanes valor inicial
+
+  // Variável nameBook que receberá o valor do menor nome;
+  return nameBook;
+}
