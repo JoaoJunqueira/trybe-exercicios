@@ -14,11 +14,11 @@ console.log(player.medals.silver);
 console.log('A jogadora ' + player.name + ' ' + player.lastName + ' tem ' + player.age + ' anos de idade.');
 
 // Exercício 3
+// Exercício 4
 
 console.log('A jogadora ' + player.name + ' ' + player.lastName + ' foi eleita a melhor do mundo por ' + player.bestInTheWorld.length + ' vezes.');
 
-// Exercício 4
-
+console.log(`A jogadora possui ${player.medals.golden} medalhas de ouro e ${player.medals.silver} medalhas de prata.`)
 
 
 
