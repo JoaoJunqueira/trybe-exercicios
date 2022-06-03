@@ -17,4 +17,8 @@ console.log('A jogadora ' + player.name + ' ' + player.lastName + ' tem ' + play
 
 console.log('A jogadora ' + player.name + ' ' + player.lastName + ' foi eleita a melhor do mundo por ' + player.bestInTheWorld.length + ' vezes.');
 
+// Exercício 4
+
+
+
 

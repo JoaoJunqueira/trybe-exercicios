@@ -53,16 +53,20 @@ let leitor = {
         autor: 'Daniela Kopsch',
         editora: 'Tordesilhas',
       },
-      {
-        titulo: 'Harry Potter e o Prisioneiro de Azkaban',
-        autor: 'JK Rowling',
-        editora: 'Rocco',
-      }
     ],
 };
 console.log("O livro favorito de " + leitor.nome + " " + leitor.sobrenome + " se chama " + leitor.livrosFavoritos[0].titulo + ".");
 
 // Exercicio 7
+
+const livros = leitor.livrosFavoritos;
+const melhorFilme = {
+    titulo: 'Harry Potter e o Prisioneiro de Azkaban',
+    autor: 'JK Rowling',
+    editora: 'Rocco',
+  };
+livros.push(melhorFilme);
+console.log(livros);
 
 // Exercicio 8
 
