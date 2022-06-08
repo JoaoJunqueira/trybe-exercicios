@@ -14,18 +14,30 @@ getPalindrom = (string) => {
 string = 'arara';
 console.log(getPalindrom(string));
 
-// Exercicio 2 (incompleto / Não dá o valor certo) //
+// Exercicio 2 
 
 getIndex = (array) => {
+    let array2 = []
+    for (let i = 0; i < array.length; i++) {
+        array2[i] = array[i];
+    }
     let aux;
+    let index;
     for (let i = 0; i < array.length - 1; i++) {
         for (let j = i; j < array.length; j++) {
-            if (array[i] < array[j]) {
-                aux = j;
+            if (array[i] > array[j]) {
+                aux = array[i];
+                array[i] = array[j];
+                array[j] = aux;
             }
         }
     }
-    return aux;
+    for (let i = 0; i < array.length; i++) {
+        if (array[0] === array2[i]) {
+            index = i;
+        }
+    }
+    return index;
 }
 
 console.log(getIndex([2, 4, 6, 7, 10, 0, -3]));
