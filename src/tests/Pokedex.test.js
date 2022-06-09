@@ -121,5 +121,3 @@ describe('Requisito 5', () => {
     expect(thirdOne).toBeInTheDocument();
   });
 });
-
-//
