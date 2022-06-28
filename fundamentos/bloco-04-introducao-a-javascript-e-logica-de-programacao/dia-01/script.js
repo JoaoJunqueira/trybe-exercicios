@@ -1,4 +1,4 @@
-// Programa 1
+//
 
 a = 3;
 b = 5;
@@ -24,7 +24,7 @@ console.log(divisao);
 console.log("Módulo");
 console.log(modulo);
 
-// Programa 2
+//
 
 a = 8;
 b = 16;
@@ -39,7 +39,7 @@ else{
     console.log("São iguais")
 }
 
-// Programa 3
+//
 
 a = 7;
 b = 13;
@@ -55,7 +55,7 @@ if(c>a && c>b){
     console.log("c");
 }
 
-// Programa 4
+//
 
 a = 10;
 
@@ -82,7 +82,7 @@ else{
     console.log("false");
 } 
 
-// Programa 6
+//
 
 // Link: https://www.w3schools.com/jsref/jsref_tolowercase.asp
 
@@ -108,7 +108,7 @@ else if(b === "peao"){
     console.log("Uma casa para frente");   
 }
 
-// Programa 7
+//
 
 a = 76;
 
@@ -134,7 +134,7 @@ else {
     console.log("Erro")
 }
 
-// Programa 8
+//
 
 a = 7;
 b = 5;
@@ -147,7 +147,7 @@ else{
     console.log("false");
 }
 
-// Programa 9
+//
 
 a = 8;
 b = 6;
@@ -160,7 +160,7 @@ else{
     console.log("false");
 }
 
-// Programa 10
+//
 
 custo = 2000;
 preço = 3000;
@@ -174,7 +174,7 @@ else{
     console.log(lucro);
 }
 
-// Programa 11
+//
 
 let s = 3000;
 
