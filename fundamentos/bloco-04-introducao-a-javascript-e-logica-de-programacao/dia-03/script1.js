@@ -1,4 +1,4 @@
-// Exercício 1
+//
 
 let n = 10;
 let fatorial = 1;
@@ -7,7 +7,7 @@ for(i = 1; i <= n; i++){
 }
 console.log(fatorial);
 
-// Exercício 2
+//
 
 let word = "tryber";
 let drow = [];
@@ -23,7 +23,7 @@ for(let i = 0; i < drow.length; i++){
 
 console.log(soma);
 
-// Exercício 3
+//
 
 let array = ['java', 'javascript', 'python', 'html', 'css'];
 let aux1 = [];
@@ -41,9 +41,7 @@ for(let i = 0; i < array.length; i++){
 }
 console.log(aux2);
 
-// Exercício 4
-
-// Números primos de 0 a 50
+//
 
 array = [];
 
