@@ -1,9 +1,6 @@
-// Atividade Bônus
-// Formas geométricas (As partes são independentes)
+// 
 
-// 1)
-
-let n = 6; // Valor editável que deve ser maior que 1
+let n = 6;
 
 string = '';
 
