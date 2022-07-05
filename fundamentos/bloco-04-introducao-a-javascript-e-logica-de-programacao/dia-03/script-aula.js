@@ -1,4 +1,4 @@
-//Exercício 1
+//
 
 let soma = 0;
 for(let i = 50; i <= 100; i++){
@@ -6,7 +6,7 @@ for(let i = 50; i <= 100; i++){
 }
 console.log("A soma de 50 a 100 é: " + soma);
  
-//Exercício 2
+//
 
 let n = 0;
 for(let i = 1; i <= 125; i++){

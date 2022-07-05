@@ -1,4 +1,4 @@
-// Exercício 1
+//
 
 let player = {
     name: 'Marta',
@@ -9,12 +9,11 @@ let player = {
 };
 console.log(player.medals.silver);
 
-// Exercício 2
+//
 
 console.log('A jogadora ' + player.name + ' ' + player.lastName + ' tem ' + player.age + ' anos de idade.');
 
-// Exercício 3
-// Exercício 4
+//
 
 console.log('A jogadora ' + player.name + ' ' + player.lastName + ' foi eleita a melhor do mundo por ' + player.bestInTheWorld.length + ' vezes.');
 

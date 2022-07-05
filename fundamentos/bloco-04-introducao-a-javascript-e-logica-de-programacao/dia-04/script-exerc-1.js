@@ -1,4 +1,4 @@
-// Exercício 1
+//
 
 let info = {
     personagem: 'Margarida',
@@ -8,23 +8,23 @@ let info = {
 };
 console.log('Bem vinda, ' + info.personagem + '!');
 
-// Exercício 2
+//
 
 console.log(info);
 
-// Exercício 3
+//
 
 for(let key in info){
     console.log(key);
 }
 
-// Exercício 4
+//
 
 for(let key in info){
     console.log(info[key]);
 }
 
-// Exercício 5
+//
 
 let info2 = {
     personagem: 'Tio Patinhas',
@@ -41,7 +41,7 @@ for(let key in info){
     }
 }
 
-// Exercício 6
+//
 
 let leitor = {
     nome: 'Julia',
@@ -57,7 +57,7 @@ let leitor = {
 };
 console.log("O livro favorito de " + leitor.nome + " " + leitor.sobrenome + " se chama " + leitor.livrosFavoritos[0].titulo + ".");
 
-// Exercicio 7
+//
 
 const livros = leitor.livrosFavoritos;
 const melhorFilme = {
@@ -68,7 +68,7 @@ const melhorFilme = {
 livros.push(melhorFilme);
 console.log(livros);
 
-// Exercicio 8
+//
 
 console.log(leitor.nome + ' tem ' + leitor.livrosFavoritos.length + ' livros favoritos.');
 

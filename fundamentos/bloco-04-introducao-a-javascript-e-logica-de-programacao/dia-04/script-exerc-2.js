@@ -1,4 +1,4 @@
-// Exercício 1
+//
 
 getPalindrom = (string) => {
     let string2 = '';
@@ -14,7 +14,7 @@ getPalindrom = (string) => {
 string = 'arara';
 console.log(getPalindrom(string));
 
-// Exercicio 2 
+//
 
 getHigherValueIndex = (array) => {
     let array2 = []
@@ -42,7 +42,7 @@ getHigherValueIndex = (array) => {
 
 console.log(getHigherValueIndex([2, 4, 6, 7, 10, 0, -3]));
 
-// Exercício 3
+//
 
 getLowerValueIndex = (array) => {
     let array2 = []
@@ -70,7 +70,7 @@ getLowerValueIndex = (array) => {
 
 console.log(getLowerValueIndex([2, 4, 6, 7, 10, 0, -3]));
 
-// Exercício 4
+//
 
 const getLargerString = (array) => {
     let aux;
