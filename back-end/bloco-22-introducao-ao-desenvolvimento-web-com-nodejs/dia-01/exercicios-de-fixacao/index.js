@@ -1,7 +1,9 @@
-import usdToBrl from './brlValue.js'
+const modules = require('./brlValue');
+
+const convert = modules.usdToBrl;
 
 const usd = 10;
 
-const brl = usdToBrl(usd);
+const brl = convert(usd);
 
 console.log(brl);

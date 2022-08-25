@@ -1,5 +1,3 @@
 const brl = 5.37;
 
-const usdToBrl = (valueInUsd) => valueInUsd * brl;
-
-export default usdToBrl;
+exports.usdToBrl = (valueInUsd) => valueInUsd * brl;
