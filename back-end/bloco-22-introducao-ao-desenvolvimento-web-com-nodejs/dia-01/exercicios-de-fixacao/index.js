@@ -1,9 +1,8 @@
-const modules = require('./brlValue');
+// Uso do require (pt-br) / 'require' use (en-us)
 
-const convert = modules.usdToBrl;
+const { brl, usdToBrl } = require('./brlValue');
 
 const usd = 10;
 
-const brl = convert(usd);
-
-console.log(brl);
+console.log(`Valor do dólar: ${brl}`);
+console.log(`Dez dólares em reais: ${usdToBrl(usd)}`);
