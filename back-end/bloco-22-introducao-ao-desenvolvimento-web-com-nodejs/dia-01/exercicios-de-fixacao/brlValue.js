@@ -1,3 +1,5 @@
-const brl = 5.47;
+const brl = 5.37;
 
-module.export = brl;
+const usdToBrl = (valueInUsd) => valueInUsd * brl;
+
+module.export = usdToBrl;
