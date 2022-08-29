@@ -25,3 +25,5 @@ FROM sakila.actor
 GROUP BY first_name
 HAVING nomes_cadastrados > 2;
 
+-- Pratica com group by
+
